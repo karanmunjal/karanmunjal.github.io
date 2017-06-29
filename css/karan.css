@@ -1,0 +1,92 @@
+body {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background-color: #000;
+	font-size: 20px;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+}
+a:hover {
+	color: #fff;
+	-webkit-opacity: 0.7;
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+
+.home{
+	background: #000 url('../images/hero.jpg') no-repeat center center fixed;
+	background-size: cover;
+	margin: 0;
+	color: white;
+	padding-left: 10%;
+	font-size: 1.6em;
+}
+.about{
+	text-align: center;
+	position: relative;
+	color: black;
+}
+.about p {
+	line-height: 1.4em;
+	width: 60%;
+	margin: 0 auto 1.2em auto;
+}
+
+.about img{
+	position: absolute;
+	top: 8%;
+	left: 40%;
+	width: 220px;
+	height: 200px;
+	border: 1px solid #eee;
+	padding: 20px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+.about .about-me{
+	position: absolute;
+	top: 40%;
+}
+.projects{
+	text-align: center;
+}
+.contact{
+	text-align: center;
+	display: flex;
+}
+.contact h1 {
+		color: black;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0.4em;
+    margin-bottom: 30px;
+    margin-right: -0.4em;
+    font-family: "Montserrat", sans-serif;
+}
+.contact a {
+	color: #000;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+.contact a:hover {
+	border-bottom: 1px solid #000;
+}
+
+.contact-me-image{
+	background-color: #292929;
+	height: 100vh;
+	width: 50%;
+}
+
+.contact-me{
+	width: 50%;
+	height: 100%;
+}
